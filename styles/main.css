@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    background: #F8EAD8;
+    background-size: cover;
+}
+.navbar{
+    background: #A7727D;
+}
+.navbar ul li a{
+    color: aliceblue;
+}
+
+/* features */
+.features{
+    height: 100vh;
+    background: #A7727D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f-card{
+    height: 400px;
+    width: 400px;
+    background: #F8EAD8;
+}
+
+/* mobile */
+
+@media (max-width: 500px){
+    .features{
+        height: 150vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
